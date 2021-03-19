@@ -218,17 +218,21 @@ body {
     width: 500px;
 }
 
-.picturesmain__second img {
+
+.picturesmain__second {
     display: flex;
+    height: 230px;
+    width: 450px;
+}
+
+.picturesmain__second img {
     border: 1px solid #C9E949;
     border-radius: 20px;
 }
 
 .picturesmain__third img {
     display: flex;
-    margin-left: 3px;
     width: 437px;
-    height: 242 px;
     border: 1px solid #C9E949;
     border-radius: 20px;
 }
