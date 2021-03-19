@@ -39,6 +39,7 @@ body {
     display: flex;
     flex-direction: column; 
     height: 650px;
+    width: 100%;
 }
 
 .headerbottom {
@@ -97,14 +98,14 @@ body {
 
 .video {
     display: flex;
-    height: 400px;
-    width: 400px;
-    background-color: rgb(139, 98, 98);
+    width: 710px;
+    height: 600px;
 }
 
 .secondsection {
     display: flex;
-    height: 585px;
+    height: 535px;
+    width: 100%;
 }
 
 .textmain {
@@ -119,7 +120,7 @@ body {
 .secondsection__linethree {
     display: flex;
     border-top: 1px solid #C9E949;
-    margin: 50px 0 0 5px;
+    margin: 0 0 0 5px;
     width: 750px;
 }
 
@@ -180,9 +181,65 @@ body {
 .secondsection__linefour {
     display: flex;
     border-top: 1px solid #C9E949;
-    margin: 0 0 120px 5px;
+    margin: 0 0 140px 5px;
     width: 750px;
 }
+
+.thirdsection {
+    display: flex;
+    height: 600px;
+    width: 100%;
+    background-color: black;
+}
+
+.picturesmain {
+    display: flex;
+    justify-content: space-between;
+}
+
+.picturesmain__first {
+    display: flex;
+    margin-left: 85px;
+    width: 500px;
+    height: 500px;
+}
+
+.picturesmain__first img {
+    border: 1px solid #C9E949;
+    border-radius: 20px;
+}
+
+.picturesmain__column {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    margin-left: 150px;
+    height: 500px;
+    width: 500px;
+}
+
+.picturesmain__second img {
+    display: flex;
+    border: 1px solid #C9E949;
+    border-radius: 20px;
+}
+
+.picturesmain__third img {
+    display: flex;
+    margin-left: 3px;
+    width: 437px;
+    height: 242 px;
+    border: 1px solid #C9E949;
+    border-radius: 20px;
+}
+
+
+
+
+
+
+
+
 
 
 
