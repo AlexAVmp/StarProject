@@ -46,9 +46,8 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    max-width: 1200px;
     height: 500px;
-    flex-shrink: 1;
-    margin: 0 6% 0 0;
 }
 
 .textsection {
@@ -99,8 +98,9 @@ body {
 
 .video {
     display: flex;
-    width: 710px;
-    height: 600px;
+    max-width: 710px;
+    max-height: 600px;
+    margin-right: 60px;
 }
 
 .secondsection {
@@ -115,29 +115,30 @@ body {
     flex-direction: column;
     margin: 0 auto;
     max-width: 800px;
-    height: 500px;
+    height: 450px;
 }
 
 .secondsection__linethree {
     display: flex;
     border-top: 1px solid #C9E949;
-    margin: 0 0 0 5px;
+    margin: 0 5% 0 5%;
     max-width: 750px;
 }
 
 .secondsection__texts {
     display: flex;
-    height: 100vh;
-    max-width: 1200px;
+    align-items: center;
+    max-width: 800px;
     justify-content: space-between;
-    margin-left: 40px;
-    margin-top: 55px;
+    margin-top: 20px;
+    margin-left: 16px;
+    margin-bottom: 150px;
 }
 
 .secondsection__one {
     display: flex;
+    width: 28%;
     text-align: center;
-    height: 100vh;
     font-family: Roboto;
     font-size: 24px;
     font-style: normal;
@@ -150,8 +151,8 @@ body {
 
 .secondsection__two {
     display: flex;
+    width: 28%;
     text-align: center;
-    height: 100vh;
     font-family: Roboto;
     font-size: 24px;
     font-style: normal;
@@ -164,8 +165,8 @@ body {
 
 .secondsection__three {
     display: flex;
+    width: 28%;
     text-align: center;
-    height: 100vh;
     font-family: Roboto;
     font-size: 24px;
     font-style: normal;
@@ -179,34 +180,30 @@ body {
 .secondsection__line {
     display: flex;
     margin-right: 15px; 
+    margin-left: 15px;
     border-right: 1px solid #C9E949;
-    height: 230px;
+    height: 200px;
 }
 
 .thirdsection {
     display: flex;
     height: 600px;
-    width: 100%;
+    max-width: 1200px;
     background-color: black;
 }
 
 .picturesmain {
     display: flex;
     justify-content: space-between;
+    max-width: 1200px;
 }
 
 .picturesmain__first {
     display: flex;
+    border-radius: 20px;
     margin-left: 85px;
     height: 500px;
-    width: 500px;
-}
-
-.picturesmain__first img {
-    border: 1px solid #C9E949;
-    border-radius: 20px;
-    height: 500px;
-    width: 500px;
+    max-width: 500px;
 }
 
 .picturesmain__column {
