@@ -285,6 +285,25 @@ body {
     margin-left: 20%;
 }
 
+.fivesection {
+    display: flex;
+    display: flex;
+    flex-direction: column;
+    max-width: 1200px;
+    max-height: 500px;
+    margin: 0 auto;
+}
+
+.fivesection__picture {
+    display: flex;
+    margin: 0 auto;
+}
+
+.fivesection__picture img {
+    max-height: 90%;
+    max-width: 90%;
+}
+
 
 
 
