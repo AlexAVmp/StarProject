@@ -17,6 +17,8 @@ body {
 
 .navbar {
     display: flex;
+    position: relative;
+    top: 20px;
     justify-content: space-between;
     margin: 30px 110px 0px 0px;
     min-width: 300px;
@@ -249,6 +251,7 @@ body {
     border-top: 1px solid #C9E949;
     max-width: 600px;
     margin-left: 25%;
+    margin-right: 25%;
     margin-top: 70px;
     margin-bottom: 70px;
 }
@@ -279,6 +282,7 @@ body {
     display: flex;
     height: 200px;
     width: 1px;
+    margin-left: 5%;
     background-color: #C9E949;
 }
 
@@ -286,6 +290,7 @@ body {
     display: flex;
     height: 200px;
     width: 1px;
+    margin-left: 5%;
     background-color: #C9E949;
 }
 
@@ -293,17 +298,38 @@ body {
     display: flex;
     height: 200px;
     width: 1px;
+    margin-left: 5%;
     background-color: #C9E949;
+}
+
+.fivesection {
+    display: flex;
+    flex-direction: column;
+    max-height: 650px;
+    max-width: 1200px;
 }
 
 .fivesection__picture {
     display: flex;
     margin: 0 auto;
+    padding-top: 4%;
+    max-height: 486px;
+    width: 90%;
 }
 
 .fivesection__picture img {
-    max-height: 90%;
-    max-width: 90%;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.fivesection__line {
+    display: flex;
+    height: 1px;
+    max-width: 400px;
+    background-color: #C9E949;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    margin-left: 5%;
 }
 
 
