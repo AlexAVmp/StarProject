@@ -384,6 +384,20 @@ body {
     }
 }
 
+@media (max-width: 850px){
+    .secondsection__two{
+        display: none;
+    }
+
+    .secondsection__three{
+        display: none;
+    }
+
+    .secondsection__one {
+        width: 100%;
+    }
+}
+
 @media (max-width: 650px) {
     .video {
         width: 70%;
